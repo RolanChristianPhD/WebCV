@@ -17,6 +17,7 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" media="all">
     <link rel="stylesheet" href="styles/blog.css" media="all">
+    <link rel="stylesheet" href="styles/timeline.css" media="all">
     <!-- endbuild -->
     
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -34,25 +35,45 @@
       </div>
 
       <div class="row marketing">
-      	<div >
-      		<h4><em>
-      		<ol class="breadcrumb">
-      			<li><a href="index.html">Home</a></li>
-      			<li class="active">Experience</li>
-      		</ol>
-      		</em></h4>
+        <div >
+          <h4><em>
+          <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li class="active">Education</li>
+          </ol>
+          </em></h4>
+        </div>
 
-      		<p>A quick summary of my experience</p>      		
-      	</div>
+        <div class="timeline">
+          <div class="timelineContainer left">
+            <div class="content">
+              <h4>2015 - Current <img src="http://afrocentric-online.co.za/reports/afrocentric-ar2014/images/helios-logo.jpg" style="width: 25%" title="Helios ITS"></h4>
+              <p>Helios ITS, Executive Manager (COO)</p>
+              <ul>
+                <li>item 1</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timelineContainer right">
+            <div class="content">
+              <h4>2004</h4>
+              <p>MSc, Electrical Engineering, University of the Witwatersrand</p>
+              <small><em>Passed with distinctions</em></small>
+            </div>
+          </div>
+        </div>
+
       </div>
+      <!-- end row marketing -->
 
       <div class="row marketing"> 
-      	<p>Contact me </p>
-      	<a href="mailto:rolan.christian@gmail.com"><img src="images/gmail.png" alt="Gmail"></a>
-      	<a href="https://github.com/rolanchristianphd"><img src="images/github.png" alt="GitHub"></a>
-      	<a href="https://twitter.com/redhot358"><img src="images/twitter.png" alt="Twitter"></a>
-      	<a href="https://www.linkedin.com/in/rolanchristian"><img src="images/linkedin.png" alt="LinkedIN"></a>
-      	<a href="https://rolanchristianphd.github.io"><img src="images/blog.png" alt="Blog"></a>
+        <p>Contact me </p>
+        <a href="mailto:rolan.christian@gmail.com"><img src="images/gmail.png" alt="Gmail"></a>
+        <a href="https://github.com/rolanchristianphd"><img src="images/github.png" alt="GitHub"></a>
+        <a href="https://twitter.com/redhot358"><img src="images/twitter.png" alt="Twitter"></a>
+        <a href="https://www.linkedin.com/in/rolanchristian"><img src="images/linkedin.png" alt="LinkedIN"></a>
+        <a href="https://rolanchristianphd.github.io"><img src="images/blog.png" alt="Blog"></a>
       </div>
 
       <!-- Footer removed for now. Will include if needed -->
@@ -86,8 +107,8 @@
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <script>
-    	$("#footer").load("footer.html"); 
-  	</script>
+      $("#footer").load("footer.html"); 
+    </script>
     <!-- endbuild -->
   </body>
 </html>
