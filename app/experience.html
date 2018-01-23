@@ -17,7 +17,6 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css" media="all">
     <link rel="stylesheet" href="styles/blog.css" media="all">
-    <link rel="stylesheet" href="styles/timeline.css" media="all">
     <!-- endbuild -->
     
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -39,29 +38,55 @@
           <h4><em>
           <ol class="breadcrumb">
             <li><a href="index.html">Home</a></li>
-            <li class="active">Education</li>
+            <li class="active">Experience</li>
           </ol>
           </em></h4>
         </div>
 
-        <div class="timeline">
-          <div class="timelineContainer left">
-            <div class="content">
-              <h4>2015 - Current <img src="http://afrocentric-online.co.za/reports/afrocentric-ar2014/images/helios-logo.jpg" style="width: 25%" title="Helios ITS"></h4>
-              <p>Helios ITS, Executive Manager (COO)</p>
-              <ul>
-                <li>item 1</li>
-              </ul>
+        <div class="panel-group" id="experienceList">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Helios ITS
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#experienceList" href="#exec">2015 - Current: Executive Manager</a>
+              </h4>
             </div>
+            <div id="exec" class="panel-collapse collapse">
+              <p class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>  
           </div>
 
-          <div class="timelineContainer right">
-            <div class="content">
-              <h4>2004</h4>
-              <p>MSc, Electrical Engineering, University of the Witwatersrand</p>
-              <small><em>Passed with distinctions</em></small>
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              Helios ITS
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#experienceList" href="#gm">2015 - Current: General Manager</a>
+              </h4>
             </div>
+            <div id="gm" class="panel-collapse collapse">
+              <p class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>  
           </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              Helios ITS
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#experienceList" href="#exec">2015 - Current: Executive Manager</a>
+              </h4>
+            </div>
+            <div id="exec" class="panel-collapse collapse">
+              <p class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>  
+          </div>
+
+          <!-- add panels here -->
         </div>
 
       </div>
